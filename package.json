@@ -10,7 +10,11 @@
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 erc1155-test"
   },
   "dependencies": {
+    "@amxx/graphprotocol-utils": "^1.1.0",
     "@graphprotocol/graph-cli": "0.30.4",
-    "@graphprotocol/graph-ts": "0.27.0"
+    "@graphprotocol/graph-ts": "0.27.0",
+    "@types/axios": "^0.14.0",
+    "i": "^0.3.7",
+    "npm": "^8.13.1"
   }
 }
